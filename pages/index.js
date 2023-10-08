@@ -3,9 +3,9 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 import { useEffect, useState } from "react"
-import { TodoProvider } from "./constext";
-import TodoForm from "./components/TodoForm";
-import TodoItem from "./components/TodoItem";
+import { TodoProvider } from "../constext";
+import TodoForm from "../components/TodoForm";
+import TodoItem from "../components/TodoItem";
 
 
 function Home() {
